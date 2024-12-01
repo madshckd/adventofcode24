@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+/*function to open up an input file*/
 func FileOpen(fileName string) *os.File {
 	file, err := os.Open(fileName)
 

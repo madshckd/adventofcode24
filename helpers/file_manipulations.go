@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+/*function to split strings based on specific split element*/
 func StringSplit(str string, splitElem string) []string {
 	return strings.Split(
 		strings.Trim(str, splitElem),
@@ -13,6 +14,7 @@ func StringSplit(str string, splitElem string) []string {
 	)
 }
 
+/*function to convert string to integer*/
 func ToInt(str string) int {
 	num, err := strconv.Atoi(str)
 
